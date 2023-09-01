@@ -56,3 +56,31 @@ pozyczka_2_10 = (1+((pazdziernik_2+oprocentowanie_kredytu))/kredyt_na10)*pozyczk
 pozyczka_2_11 = (1+((listopad_2+oprocentowanie_kredytu))/kredyt_na10)*pozyczka_2_10-stala_rata
 pozyczka_2_12 = (1+((grudzien_2+oprocentowanie_kredytu))/kredyt_na10)*pozyczka_2_11-stala_rata
 
+#wydruk końcowy
+print(" "*10, "Inflacja   ", "   Pożyczka")
+print("Przed"," "*19,wysokosc_kredytu)
+print("Styczeń    ", styczen_1, " ", pozyczka_1)
+print("Luty       ", luty_1,   "", pozyczka_2)
+print("Marzec     ", marzec_1,  " ", pozyczka_3)
+print("Kwiecień   ", kwiecien_1," ", pozyczka_4)
+print("Maj        ", maj_1,     " ", pozyczka_5)
+print("Czerwiec   ", czerwiec_1," ", pozyczka_6)
+print("Lipec      ", lipiec_1,  " ", pozyczka_7)
+print("Sierpień   ", sierpien_1," ", pozyczka_8)
+print("Wrzesień   ", wrzesien_1," ", pozyczka_9)
+print("Październik", pazdziernik_1," " ,  pozyczka_10)
+print("Listopad   ", listopad_1," ", pozyczka_11)
+print("Grudzień   ", grudzien_1," ", pozyczka_12)
+print("Styczeń    ", styczen_2," ", pozyczka_2_1)
+print("Luty       ", luty_2,  "", pozyczka_2_2)
+print("Marzec     ", marzec_2, "  ", pozyczka_2_3)
+print("Kwiecień   ", kwiecien_2," ", pozyczka_2_4)
+print("Maj        ", maj_2," ", pozyczka_2_5)
+print("Czerwiec   ", czerwiec_2," ", pozyczka_2_6)
+print("Lipec       ", lipiec_2,"", pozyczka_2_7)
+print("Sierpień    ", sierpien_2,"", pozyczka_2_8)
+print("Wrzesień   ", wrzesien_2," ", pozyczka_2_9)
+print("Październik ", pazdziernik_2,"", pozyczka_2_10)
+print("Listopad   ", listopad_1," ", pozyczka_2_11)
+print("Grudzień   ", grudzien_2," ", pozyczka_2_12)
+
